@@ -31,18 +31,22 @@ while (num > 0) {
         }
     }
 }
-
+```
 ### Time Complexity
 
-O(n)
+**O(n)**
 
-Reason:
+**Reason:**
 Each Roman symbol appended requires scanning up to all map keys.
 
-Why It’s Slower
+### Why It’s Slower
 
-Repeated iteration: Re-scans the map’s key set multiple times
+- **Repeated iteration:** Re-scans the map’s key set multiple times
 
-Iterator overhead: Iteration and get() calls are heavier than array indexing
+- **Iterator overhead:** Iteration and get() calls are heavier than array indexing
 
-Nested logic: while loop combined with for loop increases operations
+- **Nested logic:** while loop combined with for loop increases operations
+
+### Conclusion
+
+The array-based greedy approach is optimal because Roman numeral rules are fixed and finite.
