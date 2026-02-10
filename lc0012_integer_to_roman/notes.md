@@ -47,6 +47,14 @@ Each Roman symbol appended requires scanning up to all map keys.
 
 - **Nested logic:** while loop combined with for loop increases operations
 
+| Aspect          | Array Approach | HashMap Approach |
+| --------------- | -------------- | ---------------- |
+| Time Complexity | O(1)           | O(n)             |
+| Data Structure  | Fixed arrays   | LinkedHashMap    |
+| Iterations      | Constant       | Repeated         |
+| Performance     | Faster         | Slower           |
+
+
 ### Conclusion
 
 The array-based greedy approach is optimal because Roman numeral rules are fixed and finite.
