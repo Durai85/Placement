@@ -1,0 +1,11 @@
+package lc1823_find_the_winner_of_the_circular_game;
+
+public class Optimal {
+    public int findTheWinner(int n, int k) {
+        int winner = 0;
+        for(int i=1; i<=n; i++){
+            winner = (winner + k) % i;
+        }
+        return winner + 1;
+    }
+}
