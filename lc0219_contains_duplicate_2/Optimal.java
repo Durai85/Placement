@@ -1,4 +1,4 @@
-package lc0219_contains_duplicate;
+package lc0219_contains_duplicate_2;
 
 import java.util.HashSet;
 import java.util.Set;
